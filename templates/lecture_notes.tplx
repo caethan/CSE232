@@ -1,0 +1,31 @@
+% Default to the notebook output style
+((* if not cell_style is defined *))
+    ((* set cell_style = 'style_ipython.tplx' *))
+((* endif *))
+
+% Inherit from the specified cell style.
+((* extends cell_style *))
+
+%===============================================================================
+% Latex Book
+%===============================================================================
+
+((* block definitions *))
+    ((( super() )))
+    \makeatletter
+    \renewcommand{\@seccntformat}[1]{}
+    \makeatother
+((* endblock definitions *))
+
+((* block predoc *))
+    ((( super() )))
+    %((* block tableofcontents *))\tableofcontents((* endblock tableofcontents *))
+((* endblock predoc *))
+
+((* block docclass *))
+\documentclass{article}
+((* endblock docclass *))
+
+    ((* block title *))\title{Lecture Notes, CSE 232, Fall 2014 Semester}((* endblock title *))
+    ((* block author *))\author{Dr. Brett Olsen}((* endblock author *))
+    ((* block date *))\date{}((* endblock date *))

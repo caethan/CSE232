@@ -1,0 +1,50 @@
+#### Comments
+
+Introduction
+    library use
+    sorting (do, but don't implement yourself)
+    practice methods
+    
+Competition-specific advice
+    Examine input ranges - determine how good an algorithm you need
+        (e.g, w/ n=10, you can use an n! algorithm, with n=50, a
+
+Data Structures
+    know access times and library implementations
+    balanced binary trees
+    priority queue
+    stack
+    queue
+    dictionary/hash table
+
+Strings
+    (approximate) string matching
+    longest common substring
+
+Dynamic Programming
+    caching vs. computation
+    identifying subproblems
+
+Greedy Algorithms
+
+Graph Theory
+    depth- and breadth- first search
+    representation method
+    topological sort
+    shortest paths
+    maximum flow/minimum cut
+    matching
+
+Number Theory, Probability, and Combinatorics
+    greatest common divisor
+    prime numbers
+
+Computational Geometry
+    convex hull
+    
+
+Hard problems
+    know how to recognize these when they get asked!
+    Traveling salesman
+    vertex cover
+    hamiltonian cycle

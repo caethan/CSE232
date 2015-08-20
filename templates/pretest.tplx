@@ -1,0 +1,33 @@
+% Default to the notebook output style
+((* if not cell_style is defined *))
+    ((* set cell_style = 'style_ipython.tplx' *))
+((* endif *))
+
+% Inherit from the specified cell style.
+((* extends cell_style *))
+
+%===============================================================================
+% Latex Book
+%===============================================================================
+
+%Turn off section numbering
+((* block definitions *))
+    ((( super() )))
+    \makeatletter
+    \renewcommand{\@seccntformat}[1]{}
+    \makeatother
+((* endblock definitions *))
+
+%Article class
+((* block docclass *))
+\documentclass{article}
+((* endblock docclass *))
+
+%Hide the title
+((* block maketitle *))((* endblock maketitle *))
+
+%Turn off page numbering
+((* block predoc *))
+    \pagenumbering{gobble}
+    ((( super() )))
+((* endblock predoc *))

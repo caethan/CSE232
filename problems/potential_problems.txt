@@ -1,0 +1,108 @@
+This should serve as a list of interesting problems from the GCJ, SPOJ, and TOJ problem sets and how they might fit well into the class
+
+
+
+
+
+*** Week 1 (August 29) Introduction to Competitive Programming
+
+Labwork
+
+SPOJ 15710 - Iterated Sums - trivial implementation problem, good warmup
+GCJ Qual 2013 - Tic-Tac-Toe-Tomek - more complicated implementation problem, with some tricky parsing
+GCJ 1A 2013 - Bullseye - very good for showing implementation difficulties - some basic math, brute force and when it fails, limits of ints and floats
+    Have them do small only in lab (large requires some more complicated thinking)
+
+Homework
+Full analysis of Bullseye from lab, including both small and large limits
+
+*** Week 2 (September 5) Data Structures
+
+Labwork
+
+TOJ #1126 - Magnetic Storms - moving window maximum with a fixed window - good intro problem
+TOJ #1067 - Disk Tree - good basic data structure question, good intro problem
+GJC Qual 2008 - Train Timetable - pair of priority queues for each station, takes some mapping
+
+
+Homework
+TOJ 1037 - Memory Management
+great problem with lots of data structures needed - an augmented priority queue along with a basic priority queue and a dictionary to help with the data, and once the (complicated!) data structures are set up, the problem becomes trivial.
+
+*** Week 3 (September 12) Dynamic Programming (cover greedy & divide/conquer methods too)
+
+GCJ 1B 2013 - Osmos - very simple little recursive greedy problem, useful for difference between greedy and DP problems
+GCJ Qual 2009 - Welcome to Code Jam - clever little dynamic programming solution, with a bit of modular arithmetic
+GCJ 1C 2008 - Increasing Speed Limits - count increasing subsequences of an array, dynamic programming solution with an interesting data structure
+GCJ 1C 2009 - Bribe the Prisoners - very straightforward dynamic programming - good intro!
+GCJ 1A 2010 - Make it Smooth - another DP problem, slightly more complex
+GCJ 1C 2010 - Making Chess Boards - clever DP problem with some interesting data structure updates
+
+*** Week 4 (September 19) Strings
+
+GCJ 1A 2011 - The Killer Word - can be solved with an interesting suffix forest method (I think!)
+GCJ 1B 2013 - Garbled Email - very fun DP/trie problem
+GCJ 1C 2013 - Consonants - a fun little combinatorial problem with strings
+TOJ 1102 - Strange Dialog - string splitting with small dictionary - nope, not gonna work - way too restrictive memory limits 
+TOJ 1297 - Palindrome - longest consecutive palindrome in a 1000 char string
+
+*** Week 5 (September 26) Binary Mathematics
+
+GCJ Qual 2010 - Snapper Chain - clever little problem with xor operations, though solvable more simply
+GCJ Qual 2011 - Candy Splitting - again, solution itself is simple, but analysis requires some binary math
+GCJ 1A 2014 - Charging Chaos - binary encoding of flips?
+
+*** Week 6 (October 3) Introduction to Graph Theory 
+
+GCJ 1B 2009 - Square Math - BFS on a non-canonical graph
+GCJ 1C 2012 - Diamond Inheritance - simple path analysis on a directed graph
+
+*** Week 7 (October 10) More Graph Theory
+
+GCJ Qual 2013 - Treasure - tricky graph theory problem!
+GCJ 1A 2009 - Crossing the Road - slightly modified shortest path problem
+GCJ 2 2014 - Don't Break the Nile - max flow / min cut problem on an interesting graph
+
+*** Week 8 (October 24) Computational Geometry
+
+GCJ Qual 2008 - Fly Swatter - just takes some straightforward geometry to do the calculations
+GCJ Qual 2012 - Hall of Mirrors - fairly complex comp geometry problem with some data structures required!
+GCJ 1C 2009 - Center of Mass - very straightforward, good intro problem
+
+*** Week 9 (October 31) Regional ICPC & Practice Competition 
+
+We'll do a practice competition here - pick out 2-3 problems to solve
+
+*** Week 10 (November 7) Probability and Combinatorics 
+
+combinatoric games
+binomial numbers
+
+
+GCJ 1A 2009 - Collecting Cards - expected number calculations
+GCJ 1A 2010 - Number Game - simple combinatorial game, possibly good for discussion
+GCJ 1C 2010 - Rope Intranet - # of inversions in a permutation
+GCJ 1A 2012 - Password Problem - interesting probability problem with expected calculations
+GCJ 1A 2013 - Good Luck - tricky probability problem with some number theory
+GCJ 1B 2013 - Falling Diamonds - good probability analysis with binomial coefficients needed
+GCJ 1A 2014 - Proper Shuffle - another problem with probabilistic analysis of permutations
+
+*** Week 11 (November 14) Number Theory
+
+GCJ 1B 2008 - Number Sets - prime numbers!
+GCJ 1C 2008 - Ugly Numbers - prime numbers, chinese remainder theorem with a dynamic programming solution
+
+*** Week 12 (November 21) Random Algorithms
+
+monte carlo area calculations, etc.
+do we need an answer or the answer?
+how many valid answers are there and are we likely to get one with random chance?
+reservoir sampling
+pseudorandom number generators (be careful!)
+
+GCJ 1B 2012 - Equal Sums - great combinatorics problem with a good random solution!  Great for discussion.
+GCJ 2 2012 - Aerobics - random placement works!
+
+*** Week 13 (December 5) Hard Problems
+
+GCJ Round 1A 2008 - Milkshakes - minor variation on a SAT problem that makes it not NP hard anymore!
